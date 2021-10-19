@@ -21,6 +21,3 @@ const NavItems = () => {
 
 export default NavItems
 
-interface Props {
-
-}

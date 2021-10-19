@@ -1,8 +1,4 @@
-import { PrimaryButton } from '@fluentui/react'
-import { useHistory } from 'react-router'
-
 const ProjectsPage = () => {
-    const history = useHistory();
 
     return (
         <div>

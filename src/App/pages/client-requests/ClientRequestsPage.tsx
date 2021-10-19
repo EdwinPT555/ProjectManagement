@@ -1,8 +1,5 @@
-import { PrimaryButton } from '@fluentui/react'
-import { useHistory } from 'react-router'
 
 const ClientRequestsPage = () => {
-    const history = useHistory();
 
     return (
         <div>

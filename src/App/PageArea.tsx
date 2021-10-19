@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './LeftNav.module.scss';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {  Route, Switch } from 'react-router-dom';
 import HomePage from './pages/home/HomePage';
 import TaskPage from './pages/tasks/TasksPage';
 import ProjectsPage from './pages/projects/ProjectsPage';
