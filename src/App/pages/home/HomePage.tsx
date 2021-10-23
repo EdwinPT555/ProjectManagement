@@ -1,8 +1,8 @@
 import React from 'react';
 import DashboardTile from '../../components/Tiles/DashboardTile';
-import style from './HomePage.module.scss'
+// import style from './HomePage.module.scss'
 
-const ClientsPage = () => {
+const ClientsPage:React.FC = () => {
     return (
         <div>
             <DashboardTile
