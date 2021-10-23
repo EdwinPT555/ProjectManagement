@@ -5,7 +5,7 @@ import style from './LeftNav.module.scss';
 const SearchArea = () => {
     const searchBoxStyles: Partial<ISearchBoxStyles> = {
         root: {
-            width: 270,
+            width: 210,
             background: "#454b559c",
             border: "1px solid whitesmoke",
         }
@@ -13,7 +13,7 @@ const SearchArea = () => {
 
     return (
         <div className={style.searchArea}>
-            <SearchBox styles={searchBoxStyles} placeholder="Search ..." underlined={true} width={50} />
+            <SearchBox styles={searchBoxStyles} placeholder="Search ..." underlined={true}  />
         </div>
     )
 }

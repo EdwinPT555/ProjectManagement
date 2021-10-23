@@ -9,7 +9,7 @@ const UserCard:React.FC = () => {
                 <img className={style.userPhoto} src="https://statinfer.com/wp-content/uploads/dummy-user.png" alt="" />
             </div>
             <div className={style.userDetails}>
-                <b>Edwin PT</b>
+                <span className={style.userName}>Edwin PT</span>
                 <span className={style.userEmail}>edwinpt@gmail.com</span>
             </div>
         </div>
