@@ -36,6 +36,7 @@ const ClientsPage:React.FC = () => {
                 rightCount="77"
                 bgColor="linear-gradient(to bottom right, #609931, #87bc27)"
             />
+            
         </div>
     )
 }

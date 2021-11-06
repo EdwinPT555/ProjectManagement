@@ -1,10 +1,10 @@
+import Bar from './Bar'
 
 const TaskPage = () => {
 
     return (
-        <div>
-            <span>------------------------</span>
-            <h1>Tasks Page</h1>
+        <div>            
+            <Bar/>
         </div>
     )
 }
